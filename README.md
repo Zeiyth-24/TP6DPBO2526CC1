@@ -4,6 +4,9 @@ Implementasi desktop game **Flappy Bird** berbasis **Java Swing** dengan arsitek
 
 Tugas Praktikum 6 - Desain & Pemrograman Berorientasi Objek (DPBO).
 
+## Janji
+Saya Zufar Ahmad Maulidy dengan NIM 2400285 mengerjakan Tugas Praktikum 6 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+
 ---
 
 ## 1. Desain Arsitektur & Struktur Proyek
