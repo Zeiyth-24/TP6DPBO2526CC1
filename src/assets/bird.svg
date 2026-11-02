@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 24" width="34" height="24">
+  <!-- Karakter Burung Flappy Bird (Dimensi: 34 x 24 piksel) -->
+  <g id="bird">
+    <!-- Badan Burung -->
+    <ellipse cx="15" cy="12" rx="13" ry="10" fill="#F5BE23" stroke="#3C280A" stroke-width="1.5" />
+    <!-- Sayap Burung -->
+    <ellipse cx="10" cy="14" rx="6" ry="4" fill="#FFE66E" stroke="#64460A" stroke-width="1.2" />
+    <!-- Paruh Burung (Segitiga Atas & Bawah) -->
+    <polygon points="24,10 33,14 24,18" fill="#F05014" stroke="#501405" stroke-width="1.2" />
+    <line x1="24" y1="14" x2="31" y2="14" stroke="#501405" stroke-width="1" />
+    <!-- Mata Burung (Dasar Putih & Pupil Hitam) -->
+    <ellipse cx="21" cy="9" rx="4" ry="4" fill="#FFFFFF" stroke="#3C280A" stroke-width="1" />
+    <ellipse cx="23" cy="9" rx="1.5" ry="2" fill="#000000" />
+    <!-- Kilau Pantulan Cahaya Mata -->
+    <circle cx="23.5" cy="8" r="0.6" fill="#FFFFFF" />
+    <!-- Efek Blush Pipi Merah Muda -->
+    <circle cx="17" cy="14" r="2.5" fill="#FF8C69" opacity="0.6" />
+  </g>
+</svg>
+

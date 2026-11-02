@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 512" width="64" height="512">
+  <!-- Pipa Bawah Menghadap ke Atas (Dimensi: 64 x 512 piksel) -->
+  <defs>
+    <!-- Gradien Cincin / Collar Pipa -->
+    <linearGradient id="lowerPipeRimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#55961E" />
+      <stop offset="15%" stop-color="#96F03C" />
+      <stop offset="40%" stop-color="#73BF2E" />
+      <stop offset="85%" stop-color="#508C1E" />
+      <stop offset="100%" stop-color="#28460F" />
+    </linearGradient>
+    <!-- Gradien Tabung Batang Pipa -->
+    <linearGradient id="lowerPipeBodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#55961E" />
+      <stop offset="15%" stop-color="#80DC28" />
+      <stop offset="40%" stop-color="#73BF2E" />
+      <stop offset="85%" stop-color="#508C1E" />
+      <stop offset="100%" stop-color="#28460F" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cincin / Ujung Pembatas Pipa (Collar) di Bagian Atas -->
+  <rect x="0" y="0" width="64" height="32" rx="2" fill="url(#lowerPipeRimGrad)" stroke="#28460F" stroke-width="2" />
+  <!-- Garis Pantulan Cahaya Cincin -->
+  <rect x="6" y="0" width="10" height="32" fill="#A0E65A" opacity="0.8" />
+  <!-- Garis Bayangan Gelap Cincin -->
+  <rect x="48" y="0" width="10" height="32" fill="#28460F" opacity="0.4" />
+
+  <!-- Batang Pipa Bagian Bawah -->
+  <rect x="4" y="32" width="56" height="480" fill="url(#lowerPipeBodyGrad)" stroke="#28460F" stroke-width="2" />
+  <!-- Garis Pantulan Cahaya (Highlight) Batang Pipa -->
+  <rect x="10" y="32" width="8" height="480" fill="#A0E65A" opacity="0.7" />
+  <!-- Garis Bayangan Gelap Batang Pipa -->
+  <rect x="48" y="32" width="8" height="480" fill="#28460F" opacity="0.4" />
+</svg>
+
